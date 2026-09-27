@@ -1,1 +1,24 @@
+# LAB ASSIGNMENT 1: BASIC SHAPES
+
+Objective
+To understand and implement basic 2D computer graphics primitives using C/C++ and the BGI graphics library (`graphics.h` / WinBGIm).
+
+---
+
+Primitives Implemented in a Single Program
+1. **Straight Line**:
+   * Function: `line(x1, y1, x2, y2)`
+   * Draws a line from point $(100, 240)$ to $(340, 140)$ in green.
+2. **Circle**:
+   * Function: `circle(xc, yc, radius)`
+   * Draws a circle with center $(580, 195)$ and radius $r = 65$ in magenta, with a marked center point.
+3. **Rectangle**:
+   * Function: `rectangle(left, top, right, bottom)`
+   * Draws a rectangle from top-left $(110, 365)$ to bottom-right $(330, 495)$ in yellow.
+4. **Triangle**:
+   * Implemented using 3 connected lines:
+     * $P_1(580, 360) \rightarrow P_2(470, 500)$
+     * $P_2(470, 500) \rightarrow P_3(690, 500)$
+     * $P_3(690, 500) \rightarrow P_1(580, 360)$
+   * Rendered in light red with labeled vertices.
 
